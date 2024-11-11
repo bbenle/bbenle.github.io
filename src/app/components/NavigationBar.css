@@ -1,0 +1,13 @@
+.navbar {
+    color: black;
+    background-color: cyan;
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.navbar a {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+}
