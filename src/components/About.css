@@ -1,9 +1,25 @@
 .about {
-    height: 800px;
-    text-align: center;
-    padding-top: 100px;
+    text-align: left;
+    padding-top: 300px;
     font-size: 65px;
-    justify-content: center;
-    /* Centers horizontally */
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.title-text {
+    padding-top: 50px;
+}
+
+.title-name {
+    font-weight: 600;
+}
+
+.image {}
+
+.about-text {
+    padding-top: 100px;
+    margin-left: 685px;
+    margin-right: 400px;
+    padding-bottom: 100px;
 }
