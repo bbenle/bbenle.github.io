@@ -1,13 +1,25 @@
-.navbar {
-    color: black;
-    background-color: cyan;
-    font-size: 25px;
-    padding: 20px 0 20px 0;
+.nav-bar {
+    color: white;
+    background-color: #282828;
+    padding: 15px 0 15px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
 }
 
-.navbar a {
-    justify-content: space-evenly;
-    align-items: center;
-    padding-right: 50px;
+.nav-bar a {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85em;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 50px;
+    letter-spacing: 0.4px;
+}
+
+a:hover {
+    background-color: #2b2b2b;
 }
