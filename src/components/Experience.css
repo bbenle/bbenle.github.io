@@ -1,6 +1,6 @@
 .experience-container {
     background-color: #282828;
-    height: 1500px;
+    height: 1400px;
 }
 
 .experience-title {
@@ -16,7 +16,8 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding: 20px;
+    gap: 50px;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: center;
 }

@@ -2,11 +2,11 @@
     color: white;
     background-color: #202020;
     height: 500px;
-    width: 380px;
-    margin: 40px;
+    flex-basis: 30%;
+    max-width: 380px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
-    padding: 40px;
     align-items: center;
     text-align: center;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
