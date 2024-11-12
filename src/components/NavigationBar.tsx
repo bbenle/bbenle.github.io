@@ -3,11 +3,11 @@ import "./NavigationBar.css";
 
 const NavigationBar: React.FC = () => {
     return (
-        <div className="nav-bar">
-            <a>About Me</a>
-            <a>Experience</a>
-            <a>Projects</a>
-            <a>Contact</a>
+        <div className="navigation-container">
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     )
 }

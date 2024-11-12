@@ -11,4 +11,5 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.85em;
     letter-spacing: 0.4px;
+    scroll-behavior: smooth;
 }

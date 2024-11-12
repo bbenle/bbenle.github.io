@@ -1,4 +1,4 @@
-.nav-bar {
+.navigation-container {
     color: white;
     background-color: #282828;
     padding: 15px 0 15px 0;
@@ -14,7 +14,7 @@
 
 }
 
-.nav-bar a {
+.navigation-container a {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.85em;
@@ -23,6 +23,7 @@
     margin: 0 50px;
     letter-spacing: 0.4px;
     color: white;
+    text-decoration: none;
 }
 
 a:hover {

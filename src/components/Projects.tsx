@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects: React.FC = () => {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             Projects
         </div>
     )
