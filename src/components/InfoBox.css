@@ -1,0 +1,43 @@
+.box-container {
+    color: white;
+    background-color: #202020;
+    height: 500px;
+    width: 380px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.company-name-container {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    line-height: 1.15em;
+}
+
+.company-title-container {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.experience-image-container {
+    width: 130px;
+    height: 130px;
+}
+
+.description-container {
+    color: white;
+    padding-top: 20px;
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

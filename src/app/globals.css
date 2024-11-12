@@ -13,3 +13,12 @@ body {
     letter-spacing: 0.4px;
     scroll-behavior: smooth;
 }
+
+.title {
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
