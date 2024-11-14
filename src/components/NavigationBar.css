@@ -27,7 +27,7 @@
     padding: 5px;
 }
 
-a:hover {
+.navigation-hover:hover {
     background-color: #353535;
     border-radius: 7px;
 }

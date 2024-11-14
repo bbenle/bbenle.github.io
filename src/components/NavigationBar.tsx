@@ -4,10 +4,10 @@ import "./NavigationBar.css";
 const NavigationBar: React.FC = () => {
     return (
         <div className="navigation-container">
-            <a href="#about">About Me</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a className="navigation-hover" href="#about">About Me</a>
+            <a className="navigation-hover" href="#experience">Experience</a>
+            <a className="navigation-hover" href="#projects">Projects</a>
+            <a className="navigation-hover" href="#contact">Contact</a>
         </div>
     )
 }
