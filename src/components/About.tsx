@@ -15,7 +15,7 @@ const About: React.FC = () => {
                     <Typewriter.Paragraph className="title-name" typingSpeed={80}>Benjamin Le</Typewriter.Paragraph>
                 </Typewriter.Container>
                 <p className="about-text">
-                    I currently work for the Department of Education as an Admin and Technical Support Assistant, following my recent completion of a Software Engineering degree at Curtin University.
+                    I currently work for the Department of Education as an Admin and Technical Support Assistant, following my recent completion of a <b>Software Engineering</b> degree at Curtin University.
                     I am passionate about using technology to solve complex problems and possess the technical and analytical skills to create innovative solutions that drive business value.
                     <br></br>
                     <br></br>

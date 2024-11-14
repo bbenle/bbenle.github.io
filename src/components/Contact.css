@@ -1,4 +1,38 @@
 .contact-container {
-    background-color: #1b1b1b;
-    height: 300px;
+    background-color: #181818;
+    height: 280px;
+    position: relative;
+}
+
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+}
+
+.contact-icon-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon-container a:not(:last-child) {
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    color: white;
+    background-color: #181818;
+}
+
+.icon-hover:hover {
+    text-decoration: none;
+    background-color: #181818;
 }

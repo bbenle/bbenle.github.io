@@ -1,7 +1,7 @@
 .navigation-container {
     color: white;
     background-color: #282828;
-    padding: 15px 0 15px 0;
+    padding: 15px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -11,7 +11,6 @@
     top: 0;
     left: 0;
     z-index: 1000;
-
 }
 
 .navigation-container a {
@@ -19,13 +18,17 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 1.85em;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0 50px;
     letter-spacing: 0.4px;
     color: white;
     text-decoration: none;
+    position: relative;
+    padding: 5px;
 }
 
+/* Hover effect with box-shadow, no padding change */
 a:hover {
-    background-color: #2b2b2b;
+    background-color: #444444;
+    border-radius: 7px;
 }
