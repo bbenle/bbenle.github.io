@@ -15,24 +15,28 @@
     gap: 20px;
 }
 
+.icon {
+    font-size: 35px;
+    color: white;
+    background-color: #181818;
+}
+
 .contact-icon-container a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-icon-container a:not(:last-child) {
-    border-right: 2px solid #fff;
-    padding-right: 20px;
+.contact-icon-container a:not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 35px;
+    background-color: white;
+    margin-left: 20px;
 }
 
-.icon {
-    font-size: 40px;
-    color: white;
-    background-color: #181818;
-}
-
-.icon-hover:hover {
+a:hover {
     text-decoration: none;
     background-color: #181818;
 }
