@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
     return (
         <div className="projects-container" id="projects">
             <div className="title">
-                Projects
+                Gallery
             </div>
             <div className="image-slider-container">
                 <ImageSlider objectFit="cover" width={1200} height={700} dotColor="white" dotBorderColor="white" images={images} />
