@@ -6,7 +6,7 @@ import ImageSlider from 'simple-image-carousel';
 
 const images = [
     { url: "images/CapgeminiEngWeek.jpg" },
-    { url: "images/boxing.png" },
+    { url: "images/CapgeminiBoxing.jpg" },
     { url: "images/ImdexCoding.jpg" },
     { url: "images/ImdexInternship.jpg" },
 
