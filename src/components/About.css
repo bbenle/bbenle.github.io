@@ -20,13 +20,16 @@
     margin-right: 70px;
 }
 
+.title-spacing {
+    padding-top: 50px;
+}
+
 .title-name {
     font-weight: 600;
     font-size: 65px;
 }
 
 .title-text {
-    padding-top: 50px;
     font-size: 65px;
 }
 

@@ -12,6 +12,7 @@ const About: React.FC = () => {
             <div className="about-container">
                 <Typewriter.Container>
                     <Typewriter.Paragraph className="title-text" typingSpeed={80}>Hello, my name is</Typewriter.Paragraph>
+                    <div className="title-spacing"></div>
                     <Typewriter.Paragraph className="title-name" typingSpeed={80}>Benjamin Le</Typewriter.Paragraph>
                 </Typewriter.Container>
                 <p className="about-text">
