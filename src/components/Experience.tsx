@@ -13,31 +13,31 @@ const Experience: React.FC = () => {
                     company="Department of Education"
                     title="Technical Support Assistant"
                     image="/images/icons/Education.jpeg"
-                    description="I am currently working at the Department of Education on a fixed term contract up until the end of January 2025."
+                    description="Support installations, troubleshooting and managing ICT assets including computers, phones and printers."
                 />
                 <InfoBox
                     company="Capgemini"
-                    title="Consultant / Software Engineer"
+                    title="Software Engineer / Consultant"
                     image="/images/icons/Capgemini.png"
-                    description="I worked as a Consultant and Software Engineer, mostly working on internal projects including a full-stack user project tracking app, pit-to-port command centre proof of concept, and Australian Engineering Week demos."
+                    description="Developed a pit-to-port user dashboard featuring predictive maintenance, asset management, object detection and digital twins. "
                 />
                 <InfoBox
                     company="Imdex Limited"
                     title="Graduate Software Engineer"
                     image="/images/icons/Imdex.jpeg"
-                    description="I collaborated on frontend development for Imdex HUB-IQ projects using Angular. This included unit testing, code refactoring, and working closely with cross-functional teams such as UI/UX designers and product managers."
+                    description="Modernised a legacy system for HUB-IQ, a cloud-based portal for validating field data seamlessly trasmitted from drill rigs."
                 />
                 <InfoBox
                     company="Curtin University"
                     title="Sessional Academic"
                     image="/images/icons/Curtin.jpg"
-                    description="I tutored two units - Introduction to Software Engineering (ISAD1000) and Fundamentals of Programming (COMP1005). I organised and facilitated classes of up to 15 first-year university students."
+                    description="Tutored two units consisting of Introduction to Software Engineering (ISAD1000) and Fundamentals of Programming (COMP1005)."
                 />
                 <InfoBox
                     company="H&M"
                     title="Sales Advisor"
                     image="/images/icons/Hm.png"
-                    description="I worked at H&M as a sales advisor. My job was to provide the best customer service possible and to work together with a team that has the drive and ambition to reach business goals."
+                    description="Worked together in a team to organise inventory, replenish stock and provide exceptional customer service."
                 />
             </div>
         </div>

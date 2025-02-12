@@ -3,8 +3,10 @@
     height: 1100px;
 }
 
-.image-slider-container {
+.projects-info {
+    color: white;
     display: flex;
-    flex: row;
+    flex-direction: row;
     justify-content: center;
+
 }
